@@ -10,7 +10,7 @@ endif
 
 " Syntax definitions {{{1
 " Basic keywords {{{2
-syn keyword   largoConditional match if else
+syn keyword   largoConditional switch if else
 syn keyword   largoRepeat loop while
 " `:syn match` must be used to prioritize highlighting `for` keyword.
 syn match     largoRepeat /\<for\>/

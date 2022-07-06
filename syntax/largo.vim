@@ -31,6 +31,7 @@ syn match     largoPanic       "\<panic\(\w\)*!" contained
 syn match     largoAsync       "\<async\%(\s\|\n\)\@="
 syn keyword   largoKeyword     nil
 syn keyword   largoKeyword     del
+syn keyword   largoKeyword     delete
 syn keyword   largoKeyword     break
 syn keyword   largoKeyword     box
 syn keyword   largoKeyword     continue

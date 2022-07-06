@@ -19,7 +19,7 @@ syn match     largoRepeat /\<for\>/
 syn match     largoKeyword /\%(\<impl\>.\+\)\@<=\<for\>/
 syn keyword   largoRepeat in
 syn keyword   largoTypedef type nextgroup=largoIdentifier skipwhite skipempty
-syn keyword   largoStructure struct enum nextgroup=largoIdentifier skipwhite skipempty
+syn keyword   largoStructure diff struct enum nextgroup=largoIdentifier skipwhite skipempty
 syn keyword   largoUnion union nextgroup=largoIdentifier skipwhite skipempty contained
 syn match largoUnionContextual /\<union\_s\+\%([^[:cntrl:][:space:][:punct:][:digit:]]\|_\)\%([^[:cntrl:][:punct:][:space:]]\|_\)*/ transparent contains=largoUnion
 syn keyword   largoOperator    as
@@ -29,6 +29,7 @@ syn match largoExistentialContextual /\<existential\_s\+type/ transparent contai
 syn match     largoAssert      "\<assert\(\w\)*!" contained
 syn match     largoPanic       "\<panic\(\w\)*!" contained
 syn match     largoAsync       "\<async\%(\s\|\n\)\@="
+syn keyword   largoKeyword     nil
 syn keyword   largoKeyword     break
 syn keyword   largoKeyword     box
 syn keyword   largoKeyword     continue

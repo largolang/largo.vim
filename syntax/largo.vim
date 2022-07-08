@@ -35,6 +35,8 @@ syn keyword   largoKeyword     mv
 syn keyword   largoKeyword     del
 syn keyword   largoKeyword     delete
 syn keyword   largoKeyword     rename
+syn keyword   largoKeyword     remove
+syn keyword   largoKeyword     move
 syn keyword   largoKeyword     break
 syn keyword   largoKeyword     box
 syn keyword   largoKeyword     continue
